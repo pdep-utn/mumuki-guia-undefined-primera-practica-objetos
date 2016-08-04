@@ -14,7 +14,6 @@ test "tom inicialmente puede atrapar a jerry" {
   assert.that(tom.puedeAtrapar(jerry))
 }
 
-
 test "tom entiende correrA" {
   tom.correrA(jerry)
 }
