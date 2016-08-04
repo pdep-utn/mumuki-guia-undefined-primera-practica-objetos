@@ -27,12 +27,12 @@ test "consumir whisky produce la velocidad deseada" {
   assert.equals(1.44123792466,georginho.velocidad())
 }
 
-test "consumir terere produce la velocidad deseada" {
+test "consumir terere produce la velocidad deseada, cuando el rendimiento supera 1" {
   georginho.consumir(20,terere)
   assert.equals(14,georginho.velocidad())
 }
 
-test "consumir terere produce la velocidad deseada" {
+test "consumir terere produce la velocidad deseada, cuando el rendimiento es 1 " {
   georginho.consumir(9,terere)
   assert.equals(7,georginho.velocidad())
 }
