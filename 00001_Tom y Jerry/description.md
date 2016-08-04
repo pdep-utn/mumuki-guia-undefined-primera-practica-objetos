@@ -8,7 +8,8 @@ En particular, nos interesa saber saber si `tom` puede atrapar a `jerry`: para p
 
   * la velocidad de `tom` se calcula como 5 + (su energía / 10)
   * la velocidad de `jerry` se calcula como 10 menos su peso
-
+  * `tom` tiene inicialmente 200 unidades de energía, y `jerry`, 50 unidades de peso.
+ 
 Además, queremos hacer que `tom` corra a `jerry`. Cuando `tom` corre un ratón: 
 
   * pierde energía en base al tiempo que tarda en alcanzarlo
