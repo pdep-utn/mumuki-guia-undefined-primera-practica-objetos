@@ -1,45 +1,20 @@
-test "existe tom" {
-  tom
+test "existe georginho" {
+  georginho
 }
 
-test "existe jerry" {
-  jerry
+test "existe el whisky" {
+  whisky
 }
 
-test "existe robotRaton" {
-  jerry
+test "existe el cianuro" {
+  cianuro
 }
 
-
-test "tom entiende puedeAtrapar" {
-  tom.puedeAtrapar(jerry)
+test "existe el terere" {
+  terere
 }
 
-test "robotRaton entiende velocidad y devuelve siempre 8" {
-  assert.equals(8, robotRaton.velocidad())
+test "georginho entiende consumir" {
+  georginho.consumir(15,whisky)
 }
-
-
-test "robotRaton NO tiene un atributo velocidad (¡porque no lo necesita!)" {
-  assert.that(!robotRaton.toString().contains("velocidad"))
-}
-
-test "tom inicialmente puede atrapar a jerry" {
-  assert.that(tom.puedeAtrapar(jerry))
-}
-
-test "tom entiende correrA" {
-  tom.correrA(jerry)
-}
-
-test "tom puede correr al robot" {
-  tom.correrA(robotRaton)
-}
-
-
-test "si tom corre a jerry, ya no lo puede atrapar" {
-  tom.correrA(jerry)
-  assert.that(!tom.puedeAtrapar(jerry))
-}
-
 
