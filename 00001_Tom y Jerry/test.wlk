@@ -18,7 +18,7 @@ test "tom entiende correrA" {
   tom.correrA(jerry)
 }
 
-test "si tom corre 4 veces, ya no lo puede atrapar" {
-  4.times { tom.correrA(jerry) }
+test "si tom corre 3 veces, ya no lo puede atrapar" {
+  3.times { tom.correrA(jerry) }
   assert.that(!tom.puedeAtrapar(jerry))
 }
