@@ -5,8 +5,8 @@ src="https://www.youtube.com/embed/UxY_CR_Al1c">
 </iframe>
 
 En particular, nos interesa saber saber si `tom` puede atrapar a `jerry`: para poder atraparlo, `tom` tiene que ser más veloz que el ratón. Tener en cuenta que 
-* la velocidad de `tom` se calcula como 5 + (su energía / 10)
-* la velocidad de `jerry` se calcula como 10 menos su peso
+  * la velocidad de `tom` se calcula como 5 + (su energía / 10)
+  * la velocidad de `jerry` se calcula como 10 menos su peso
 
 Además, queremos hacer que `tom` corra a `jerry`. Cuando `tom` corre un ratón: 
   * pierde energía en base al tiempo que tarda en alcanzarlo
