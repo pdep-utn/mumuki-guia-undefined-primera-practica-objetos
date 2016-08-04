@@ -19,6 +19,7 @@ test "georginho entiende consumir" {
 }
 
 test "georginho entiende velocidad" {
+  georginho.consumir(15,whisky)
   georginho.velocidad()
 }
 
