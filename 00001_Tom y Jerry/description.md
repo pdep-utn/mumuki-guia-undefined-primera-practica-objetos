@@ -22,5 +22,5 @@ Además, queremos hacer que `tom` corra a `jerry`. Cuando `tom` corre un ratón:
 >  => true //ó false
 >
 > ム tom.correrA(jerry)
-> => true //ó false
+> =>
 > ```
