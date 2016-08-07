@@ -2,7 +2,7 @@
 tags: []
 layout: upload
 type: problem
-extra_visible: true
+extra_visible: false
 language: 
 teacher_info: ''
 manual_evaluation: false
