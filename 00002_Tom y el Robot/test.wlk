@@ -7,9 +7,8 @@ test "existe jerry" {
 }
 
 test "existe robotRaton" {
-  jerry
+  robotRaton
 }
-
 
 test "tom entiende puedeAtrapar" {
   tom.puedeAtrapar(jerry)
