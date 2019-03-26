@@ -1,5 +1,5 @@
 object distancia {
     method entre(punto, otro) {
-        return ((punto.getX() - otro.getX()) ** 2 + (punto.getY() - otro.getY()) ** 2).squareRoot()
+        return ((punto.x() - otro.x()) ** 2 + (punto.y() - otro.y()) ** 2).squareRoot()
     }
 }

@@ -4,7 +4,7 @@ Para modelar los puntos 2D y las distancias, te ofrecemos dos ayudas:
 2. Dejamos un objeto `distancia` que entiende el mensaje `entre`. Por ejemplo:
 
 ```wollok
-ム distancia.entre(0->0,0 ->9)
+ム distancia.entre(0->0, 0->9)
 9
 ```
 
