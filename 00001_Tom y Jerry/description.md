@@ -13,7 +13,7 @@ En particular, nos interesa saber saber si `tom` puede atrapar a `jerry`: para p
 Además, queremos hacer que `tom` corra a `jerry`. Cuando `tom` corre un ratón: 
 
   * pierde energía en base al tiempo que tarda en alcanzarlo
-  * consome tanta energía como 0.5 * su velocidad * distancia entre ambos
+  * consume tanta energía como 0.5 * su velocidad * distancia entre ambos
   * su posición actual pasa a ser igual a la del ratón. 
   * tom está inicialmente en el punto `(0, 0)` y jerry en el `(10, 5)`
 
