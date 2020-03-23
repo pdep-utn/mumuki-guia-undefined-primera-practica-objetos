@@ -27,7 +27,6 @@ Además, queremos hacer que `tom` corra a `jerry`. Cuando `tom` corre un ratón:
 > =>
 > ```
 
-`jerry` se avivó y ahora compró un robot-ratón. Este tiene una velocidad constante de 8 unidades y está inicialmente en la posición (12, 2).
 
 ![robot-raton](https://s-media-cache-ak0.pinimg.com/236x/1f/13/17/1f1317e6a5887547544c0f1c721d1fa8.jpg)
 
