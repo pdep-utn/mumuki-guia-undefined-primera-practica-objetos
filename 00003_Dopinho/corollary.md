@@ -2,7 +2,7 @@
 
 En este ejercicio el _polimorfismo_ aparece como `georginho` utiliza las distintas sustancias para conocer su rendimiento.
 
-Cabe destacar que para lograrlo, las sustancias deben entender el mismo mensaje, incluyendo nombre **y parámetros**. Esto significa que si para conocer el rendimiento que algunas sustancias es necesario pasar algún parámetro (como la cantidad de la dosis para el `whisky` y `terere`) entonces todas las sustancias (incluyendo el `cianuro`) lo deberían esperar.
+Cabe destacar que para lograrlo, las sustancias deben entender el mismo mensaje, incluyendo nombre **y parámetros**. Esto significa que si para conocer el rendimiento que algunas sustancias es necesario pasar algún parámetro en el mensaje (como la cantidad de la dosis para el `whisky` y `terere`) entonces todas las sustancias (incluyendo el `cianuro`) lo deberían esperar.
 
 
 También hay que diseñar qué datos son _atributos_ y cuáles _métodos de consulta_ de `georginho`. El enunciado pide que `velocidad` **no** sea un atributo ya que es una _variable independiente_, se obtiene de un cálculo que involucra el rendimiento, incercia y peso de `georginho`.
