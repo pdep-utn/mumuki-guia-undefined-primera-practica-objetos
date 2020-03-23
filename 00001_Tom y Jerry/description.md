@@ -33,3 +33,5 @@ Para pensar:
 > ¿`velocidad` es un **método o atributo** de `tom`? ¿Y de `jerry`?
 
 > ¿Hace falta que el `robotRaton` tenga peso?
+
+> ¿Qué mensajes debería entender un nuevo ratón para poder ser perseguido por `tom`? Si te animás, ¡agregá uno inventado por vos!
