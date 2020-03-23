@@ -4,32 +4,31 @@ Queremos modelar la épica batalla entre un valiente gato y un vil ratón:
 src="https://www.youtube.com/embed/UxY_CR_Al1c">
 </iframe>
 
-En particular, nos interesa saber saber si `tom` puede atrapar a `jerry`: para poder atraparlo, `tom` tiene que ser más veloz que el ratón. Tener en cuenta que 
+
+Esta batalla se basa en infinitas persecuciones de `tom` intentando atrapar a `jerry`, pero `jerry` siempre logra escaparse, ya sea por sus propios medios, ó a veces con ayuda de su `robotRaton`, a quien usa como señuelo.
+
+![robot-raton](https://s-media-cache-ak0.pinimg.com/236x/1f/13/17/1f1317e6a5887547544c0f1c721d1fa8.jpg)
+
+En particular, nos interesa saber saber si `tom` es más veloz que un ratón, o sea, si su velocidad es mayor que la velocidad del ratón. Tener en cuenta que 
 
   * la velocidad de `tom` se calcula como 5 + (su energía / 10).
   * la velocidad de `jerry` se calcula como 10 menos su peso.
   * la velocidad del `robotRaton` es siempre de 8 unidades.
   * `tom` tiene inicialmente `80` unidades de energía, y `jerry`, `3` unidades de peso.
  
-Además, queremos hacer que `tom` corra a `jerry`. Cuando `tom` corre un ratón: 
+Además, queremos hacer que `tom` corra a un ratón. Cuando `tom` corre un ratón: 
 
   * consume tanta energía como 0.5 * su velocidad * distancia entre ambos.
   * su posición actual pasa a ser igual a la del ratón. 
-  * tom está inicialmente en la posición `0`, jerry en la `10` y el `robotRaton` en la `12`.
+  * `tom` está inicialmente en la posición `0`, `jerry` en la `10` y el `robotRaton` en la `12`.
 
-> Declarar los objetos necesarios de forma que se puedan realizar los siguientes envíos de mensajes
+> Declarar los objetos necesarios de forma que
 > 
-> ```wollok
-> ム tom.puedeAtrapar(jerry)
->  => true //ó false
->
-> ム tom.correrA(jerry)
-> =>
-> ```
+> - Todos entiendan el mensaje `velocidad()`.
+> - `tom` entienda el mensaje `esMasVeloz(raton)`.
+> - `tom` entienda el mensaje `correrA(raton)`.
 
+Para pensar:
 
-![robot-raton](https://s-media-cache-ak0.pinimg.com/236x/1f/13/17/1f1317e6a5887547544c0f1c721d1fa8.jpg)
-
-> Agregá al robot-ratón, de manera que todo siga funcionando, pero ahora `tom` también pueda perseguir a este `robotRaton`, tal como lo hace con `jerry`. 
-> 
-> Y pensá: ¿hace falta modelar el peso del `robotRaton`?
+> ¿Hace falta que el `robotRaton` tenga peso?
+> ¿Hace falta que el `robotRaton` tenga peso?
