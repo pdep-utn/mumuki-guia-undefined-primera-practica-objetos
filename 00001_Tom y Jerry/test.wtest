@@ -1,42 +1,76 @@
+
 test "existe tom" {
-  tom
+	tom
 }
 
 test "existe jerry" {
-  jerry
+	jerry
 }
 
 test "existe robotRaton" {
-  robotRaton
+	robotRaton
 }
 
-test "tom entiende puedeAtrapar" {
-  tom.puedeAtrapar(jerry)
+test "tom entiende velocidad" {
+	tom.velocidad()
 }
 
-
-test "robotRaton NO tiene un atributo velocidad (¡porque no lo necesita!)" {
-	assert.that(!robotRaton.toString().contains("velocidad"))
+test "jerry entiende velocidad" {
+	jerry.velocidad()
 }
 
-
-test "robotRaton entiende velocidad y devuelve siempre 8" {
-  assert.equals(8, robotRaton.velocidad())
+test "robotRaton entiende velocidad" {
+	robotRaton.velocidad()
 }
 
-test "tom inicialmente puede atrapar a jerry" {
-  assert.that(tom.puedeAtrapar(jerry))
+test "tom entiende esMasVeloz" {
+	tom.esMasVeloz(jerry)
 }
 
 test "tom entiende correrA" {
-  tom.correrA(jerry)
+	tom.correrA(jerry)
 }
 
-test "tom puede correr al robot" {
-  tom.correrA(robotRaton)
+
+test "velocidad incial de tom" {
+	assert.equals(13, tom.velocidad())
 }
 
-test "si tom corre a jerry, ya no lo puede atrapar" {
-  tom.correrA(jerry)
-  assert.that(!tom.puedeAtrapar(jerry))
+test "velocidad incial de jerry" {
+	assert.equals(7, jerry.velocidad())
+}
+
+test "velocidad del robotRaton" {
+	assert.equals(8, robotRaton.velocidad())
+}
+
+
+test "tom inicialmente es más veloz que jerry" {
+	assert.that(tom.esMasVeloz(jerry))
+}
+
+test "si tom corre a jerry, luego no es más veloz" {
+	tom.correrA(jerry)
+	assert.notThat(tom.esMasVeloz(jerry))
+}
+
+
+test "tom inicialmente es más veloz que robotRaton" {
+	assert.that(tom.esMasVeloz(robotRaton))
+}
+
+test "si tom corre a robotRaton, luego no es más veloz" {
+	tom.correrA(robotRaton)
+	assert.notThat(tom.esMasVeloz(robotRaton))
+}
+
+
+test "tom NO tiene un atributo velocidad" {
+	//TODO: Falta expectativa
+	assert.notThat(tom.toString().contains("velocidad"))
+}
+
+test "jerry NO tiene un atributo velocidad" {
+	//TODO: Falta expectativa
+	assert.notThat(jerry.toString().contains("velocidad"))
 }
