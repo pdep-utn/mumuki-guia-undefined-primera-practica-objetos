@@ -31,4 +31,5 @@ Además, queremos hacer que `tom` corra a un ratón. Cuando `tom` corre un rató
 Para pensar:
 
 > ¿`velocidad` es un método o un atributo de `tom`? ¿Y de `jerry`?
+
 > ¿Hace falta que el `robotRaton` tenga peso?
