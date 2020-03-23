@@ -41,3 +41,8 @@ test "consumir cianuro produce la velocidad deseada" {
   georginho.consumir(15,cianuro)
   assert.equals(0,georginho.velocidad())
 }
+
+test "georginho NO tiene un atributo velocidad" {
+	//TODO: Falta expectativa
+	assert.notThat(georginho.toString().contains("velocidad"))
+}
