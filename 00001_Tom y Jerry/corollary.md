@@ -16,4 +16,4 @@ _Para más información podés consultar [este artículo](http://wiki.uqbar.org/
 
 Por último, es necesario que `tom` se envíe mensajes a él mismo, por ejemplo para conocer su velocidad. Recordá que `self` es una referencia que tienen todos los objetos hacia ellos mismos y sirve para auto-enviarse mensajes.
 
-También es recomendable _dividir en sub-tareas_. **¿Qué tan complejo te quedó el método `correrA` de `tom`?** Tal vez se pueda separar en varios métodos, ¡si es que ya no lo hiciste!
+También es útil para _dividir en sub-tareas_. **¿Qué tan complejo te quedó el método `correrA` de `tom`?** Tal vez se pueda separar la lógica en varios métodos, ¡si es que ya no lo hiciste!
