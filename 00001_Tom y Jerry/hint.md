@@ -2,6 +2,6 @@ La 'distancia' entre 2 valores `x1` y `x2` es el valor absoluto de `(x1 - x2)`. 
 Probá en la consola:
 
 ```wollok
-1.abs()
-(-1).abs()
+ム 1.abs()
+ム (-1).abs()
 ```
