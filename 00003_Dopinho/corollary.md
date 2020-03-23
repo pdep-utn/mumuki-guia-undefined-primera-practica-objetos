@@ -11,6 +11,7 @@ _Para más información podés consultar [este artículo](http://wiki.uqbar.org/
 
 
 Para reflexionar en base a la definición de `georginho`:
+
 - Al calcular la velocidad, ¿aparecen los nombre para las variables `inercia` y `peso` o están directamente sus valores? ¡Recordá que ponerle nombre a las cosas aumenta el nivel de abstracción!
 - ¿Se podría tener la `inercia` y `peso` en métodos de consulta, **sin necesidad** de tenerlo en algún atributo?
 - ¿Cuándo se calcula el rendimiento? ¿Se guarda el valor previamente o se calcula en el momento de usarse para calcular la velocidad? ¡Ambas formas son posibles!
