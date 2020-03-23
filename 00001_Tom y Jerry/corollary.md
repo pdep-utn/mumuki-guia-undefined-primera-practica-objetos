@@ -7,7 +7,8 @@ Esto además permite:
 - Poder _extender_ el sistema fácilmente. Se puede agregar más ratones sin que ello involucre meterse en la lógica de `tom`.
 
 
+
 Además hay que diseñar el modelado de los objetos, particularmente elegir qué variables son _atributos_ y cuáles _métodos de consulta_. Por ejemplo, el `peso` de `jerry` es una _variable independiente_ ya que **no depende de ningún otro valor y debemos recordarlo**, por lo que es necesario tenerlo como _atributo_. 
 En cambio, su `velocidad` es una _variable dependiente_ ya que **se calcula a partir del peso**. En este caso es conveniente tener ese cálculo en un _método de consulta_.
 
-_Para más información sobre esto podés consultar [este artículo](http://wiki.uqbar.org/wiki/articles/oo-temporary-variable.html)._
+_Para más información podés consultar [este artículo](http://wiki.uqbar.org/wiki/articles/oo-temporary-variable.html)._
