@@ -5,7 +5,7 @@ src="https://www.youtube.com/embed/UxY_CR_Al1c">
 </iframe>
 
 
-Esta batalla se basa en infinitas persecuciones de `tom` intentando atrapar a `jerry`, pero `jerry` siempre logra escaparse, ya sea por sus propios medios, ó a veces con ayuda de su `robotRaton`, a quien usa como señuelo.
+Esta batalla se basa en infinitas persecuciones de `tom` intentando atrapar a `jerry`, pero `jerry` siempre logra escapar, ya sea por sus propios medios, ó a veces con ayuda de su `robotRaton`, a quien usa como señuelo.
 
 ![robot-raton](https://s-media-cache-ak0.pinimg.com/236x/1f/13/17/1f1317e6a5887547544c0f1c721d1fa8.jpg)
 
