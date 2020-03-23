@@ -6,8 +6,21 @@ test "existe jerry" {
   jerry
 }
 
+test "existe robotRaton" {
+  robotRaton
+}
+
 test "tom entiende puedeAtrapar" {
   tom.puedeAtrapar(jerry)
+}
+
+
+//test "robotRaton NO tiene un atributo velocidad (¡porque no lo necesita!)" {
+	//assert.throwsException({ new InstanceVariableMirror(target = robotRaton, name = "velocidad").value()})
+//}
+
+test "robotRaton entiende velocidad y devuelve siempre 8" {
+  assert.equals(8, robotRaton.velocidad())
 }
 
 test "tom inicialmente puede atrapar a jerry" {
@@ -16,6 +29,10 @@ test "tom inicialmente puede atrapar a jerry" {
 
 test "tom entiende correrA" {
   tom.correrA(jerry)
+}
+
+test "tom puede correr al robot" {
+  tom.correrA(robotRaton)
 }
 
 test "si tom corre a jerry, ya no lo puede atrapar" {

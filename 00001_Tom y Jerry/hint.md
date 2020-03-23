@@ -1,11 +1,6 @@
-Para modelar los puntos 2D y las distancias, te ofrecemos dos ayudas:
-
-1. Podés crear un par de puntos haciendo enviando el mensaje `->` a un número: `3 -> 2` es el par `(3, 2)`
-2. Dejamos un objeto `distancia` que entiende el mensaje `entre`. Por ejemplo:
-
+La 'distancia' entre 2 valores `x1` y `x2` es el valor absoluto de `(x1 - x2)`. Los números entienden el mensaje `abs()` para obtener su valor absoluto.
+Probá en la consola:
 ```wollok
-ム distancia.entre(0->0, 0->9)
-9
+1.abs()
+(-1).abs()
 ```
-
-Podés usarlo si querés

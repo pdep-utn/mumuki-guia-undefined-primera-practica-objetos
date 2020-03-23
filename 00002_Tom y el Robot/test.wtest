@@ -1,5 +1,3 @@
-import wollok.mirror.*
-
 test "existe tom" {
   tom
 }
