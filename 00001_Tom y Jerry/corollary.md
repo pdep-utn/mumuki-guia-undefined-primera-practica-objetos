@@ -12,3 +12,8 @@ Además hay que diseñar el modelado de los objetos, particularmente elegir qué
 En cambio, su `velocidad` es una _variable dependiente_ ya que **se calcula a partir del peso**. En este caso es conveniente tener ese cálculo en un _método de consulta_.
 
 _Para más información podés consultar [este artículo](http://wiki.uqbar.org/wiki/articles/oo-temporary-variable.html)._
+
+
+Por último, es necesario que `tom` se envíe mensajes a él mismo, por ejemplo para conocer su velocidad. Recordá que `self` es una referencia que tienen todos los objetos hacia ellos mismos y sirve para auto-enviarse mensajes.
+
+También es recomendable _dividir en sub-tareas_. **¿Qué tan complejo te quedó el método `correrA` de `tom`?** Tal vez se pueda separar en varios métodos, ¡si es que ya no lo hiciste!
