@@ -15,9 +15,9 @@ test "tom entiende puedeAtrapar" {
 }
 
 
-//test "robotRaton NO tiene un atributo velocidad (¡porque no lo necesita!)" {
-	//assert.throwsException({ new InstanceVariableMirror(target = robotRaton, name = "velocidad").value()})
-//}
+test "robotRaton NO tiene un atributo velocidad (¡porque no lo necesita!)" {
+	assert.throwsException({ new InstanceVariableMirror(target = robotRaton, name = "velocidad").value()})
+}
 
 test "robotRaton entiende velocidad y devuelve siempre 8" {
   assert.equals(8, robotRaton.velocidad())
