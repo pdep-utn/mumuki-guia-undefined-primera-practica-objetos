@@ -24,9 +24,9 @@ Además, queremos hacer que `tom` corra a un ratón. Cuando `tom` corre un rató
 
 > Declarar los objetos necesarios de forma que
 > 
-> - Todos entiendan el mensaje `velocidad()`
-> - `tom` entienda el mensaje `esMasVeloz` pasándole algún ratón por parámetro
-> - `tom` entienda el mensaje `correrA` pasándole algún ratón por parámetro
+> 1. Todos entiendan el mensaje `velocidad()`
+> 2. `tom` entienda el mensaje `esMasVeloz` pasándole algún ratón por parámetro
+> 3. `tom` entienda el mensaje `correrA` pasándole algún ratón por parámetro
 
 Para pensar:
 
