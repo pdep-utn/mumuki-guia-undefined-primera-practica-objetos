@@ -22,6 +22,7 @@ Cuando alguien usa la `play` no pasa nada, pero cuando la `portatil` se usa qued
 
 
 > Se pide:
+>
 > 1. Las consolas entiendan el mensaje `jugabilidad()` que indica cuánta jugabilidad otorga.
 > 2. Las consolas entiendan el mensaje `usar()` que provoca que la consola reciba un uso.
 > 3. `delfina` entienda el mensaje `agarrar(consola)` para cambiar la consola que tiene en la mano.
