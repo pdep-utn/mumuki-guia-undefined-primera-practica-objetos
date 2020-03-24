@@ -10,4 +10,5 @@ Además, todo este esquema es posible de manejar dado que cada objeto tiene _res
 
 Prestando atención, si bien la lógica necesita de ambos objetos, por cómo está planteado este caso, **el que define cómo se calcula la diversión es el videojuego**, y la consola (en realidad, su jugabilidad) es solamente un dato para resolver la ecuación. Así que lo mejor para saber qué cálculo hacer sería **mandarle el mensaje para saber la diversión que otorga al videojuego** (pasándole la consola por parámetro si es necesario) y aprovechar el _polimorfismo_.
 
-Por último, **¿cómo modelaron que `portatil` tenga _batería baja_? ¿qué se guarda como atributo?**
+
+Por último, para reflexionar: **¿cómo modelaste que `portatil` tenga _batería baja_? ¿qué se guarda como atributo? ¿la jugabilidad la calcula en el momento de usarse o se la guarda previamente?**
