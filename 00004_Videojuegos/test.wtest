@@ -1,5 +1,5 @@
 describe "Descripción del grupo"{
 	test "Descripción del ejemplo" {
-		assert.that(true)
+		assert.that(false)
 	}
 }
