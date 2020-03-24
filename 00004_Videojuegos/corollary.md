@@ -6,5 +6,7 @@ Este ejercicio tiene muchos lugares para aplicar _polimorfismo_: de `delfina` ha
 - Al usar una consola. Si bien `portatil` sufre un efecto al ser usada, `play` no. Entonces, **¿es necesario que el objeto `play` tenga un método `usar()` que no hace nada?** Si queremos tratarlas _polimorficamente_ (como al hacer que `delfina` juegue), entonces sí. Como es indiferente qué consola se esté usando, ambos objetos son posibles candidatos de recibir el mensaje `usar()` y, para el caso particular de `play`, **NO es lo mismo tener un método que no hace nada en vez de no tenerlo: en el primer caso el objeto entiende el mensaje y no hace nada, en el segundo no se entiende el mensaje y _el programa se rompe_**.
 
 
-Además, todo este esquema es posible de manejar dado que cada objeto tiene _responsabilidades_ bien definidas. Hay que tener cuidado, por ejemplo, al calcular la diversión que otorga un videojuego, que en la mayoría de los casos depende de dos objetos: el videojuego y la consola.
+Además, todo este esquema es posible de manejar dado que cada objeto tiene _responsabilidades_ bien definidas. Hay que tener cuidado, por ejemplo, al calcular la diversión que otorga un videojuego, que en la mayoría de los casos depende de dos objetos: el videojuego y la consola. Entonces, **¿a quién se le manda el mensaje, a la consola o al videojuego?**
+
+
 
