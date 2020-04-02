@@ -8,8 +8,8 @@ Las consolas que tiene disponibles son:
 
 Queremos hacer que `delfina` juegue a un videojuego. Cuando esto sucede:
 
-- primero `delfina` aumenta su nivel de diversión según cuánto otorgue el juego
-- Y luego se le asigna un uso a la consola
+- Primero `delfina` aumenta su nivel de diversión según cuánto otorgue el juego
+- Y luego hace uso de la consola
 
 Cuando alguien usa la `play` no pasa nada, pero cuando la `portatil` se usa queda con _batería baja_.
 
