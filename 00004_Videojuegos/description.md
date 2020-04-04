@@ -14,7 +14,7 @@ Queremos hacer que `delfina` juegue a un videojuego. Cuando esto sucede:
 Cuando alguien usa la `play` no pasa nada, pero cuando la `portatil` se usa queda con _batería baja_.
 
 
-`delfina` siempre comienza con un nivel de diversión de 0 y tiene muchos videojuegos, por ahora nos interesa modelar:
+`delfina` siempre comienza con un nivel de diversión de 0 y teniendo la `play` en la mano. Además tiene muchos videojuegos a su disposición, por ahora nos interesa modelar:
 
 - `arkanoid`: otorga una diversión de 50 unidades
 - `mario`: si la consola tiene la jugabilidad necesaria (mayor que 5) otorga una diversión de 100 unidades, caso contrario 15
