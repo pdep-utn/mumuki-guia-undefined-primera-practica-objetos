@@ -78,7 +78,7 @@ test "tom inicialmente es más veloz que robotRaton" {
 
 test "velocidad de tom después de correr a robotRaton" {
 	tom.correrA(robotRaton)
-	assert.equals(6.5, tom.velocidad())
+	assert.equals(5.2, tom.velocidad())
 }
 
 test "posicion de tom después de correr a robotRaton" {
