@@ -87,6 +87,19 @@ test "posicion de tom después de correr a robotRaton" {
 }
 
 
+test "velocidad de tom después de correr a robotRaton y luego a jerry" {
+	tom.correrA(robotRaton)
+	tom.correrA(jerry)
+	assert.equals(5.2, tom.velocidad())
+}
+
+test "posicion de tom después de correr a robotRaton y luego a jerry" {
+	tom.correrA(robotRaton)
+	tom.correrA(jerry)
+	assert.equals(jerry.posicion(), tom.posicion())
+}
+
+
 test "tom NO tiene un atributo velocidad" {
 	//TODO: Falta expectativa
 	assert.notThat(tom.toString().contains("velocidad"))
