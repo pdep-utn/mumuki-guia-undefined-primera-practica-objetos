@@ -44,13 +44,31 @@ test "velocidad del robotRaton" {
 }
 
 
+test "posición incial de tom" {
+	assert.equals(0, tom.posicion())
+}
+
+test "posición incial de jerry" {
+	assert.equals(10, jerry.posicion())
+}
+
+test "posición incial del robotRaton" {
+	assert.equals(12, robotRaton.posicion())
+}
+
+
 test "tom inicialmente es más veloz que jerry" {
 	assert.that(tom.esMasVeloz(jerry))
 }
 
-test "si tom corre a jerry, luego no es más veloz" {
+test "velocidad de tom después de correr a jerry" {
 	tom.correrA(jerry)
-	assert.notThat(tom.esMasVeloz(jerry))
+	assert.equals(6.5, tom.velocidad())
+}
+
+test "posicion de tom después de correr a jerry" {
+	tom.correrA(jerry)
+	assert.equals(jerry.posicion(), tom.posicion())
 }
 
 
@@ -58,9 +76,14 @@ test "tom inicialmente es más veloz que robotRaton" {
 	assert.that(tom.esMasVeloz(robotRaton))
 }
 
-test "si tom corre a robotRaton, luego no es más veloz" {
+test "velocidad de tom después de correr a robotRaton" {
 	tom.correrA(robotRaton)
-	assert.notThat(tom.esMasVeloz(robotRaton))
+	assert.equals(6.5, tom.velocidad())
+}
+
+test "posicion de tom después de correr a robotRaton" {
+	tom.correrA(robotRaton)
+	assert.equals(robotRaton.posicion(), tom.posicion())
 }
 
 
