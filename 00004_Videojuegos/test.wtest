@@ -92,6 +92,13 @@ test "diversion de delfina después de agarrar la portatil y jugar al arkanoid" 
 	assert.equals(50, delfina.diversion())
 }
 
+test "diversion de delfina después de agarrar la portatil y jugar al arkanoid dos veces" {
+	delfina.agarrar(portatil)
+	delfina.jugar(arkanoid)
+	delfina.jugar(arkanoid)
+	assert.equals(100, delfina.diversion())
+}
+
 test "diversion de delfina después de agarrar la portatil y jugar al mario" {
 	delfina.agarrar(portatil)
 	delfina.jugar(mario)
