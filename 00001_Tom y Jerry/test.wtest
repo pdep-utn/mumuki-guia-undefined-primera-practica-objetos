@@ -90,7 +90,7 @@ test "posicion de tom después de correr a robotRaton" {
 test "velocidad de tom después de correr a robotRaton y luego a jerry" {
 	tom.correrA(robotRaton)
 	tom.correrA(jerry)
-	assert.equals(5.2, tom.velocidad())
+	assert.equals(4.68, tom.velocidad())
 }
 
 test "posicion de tom después de correr a robotRaton y luego a jerry" {
